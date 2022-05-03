@@ -1,0 +1,17 @@
+.success{
+    border: 2px solid greenyellow;    
+}
+
+.alert{
+    font-size: 2rem;
+    box-shadow: var(--shadow-1);
+    padding: 1rem 2rem;
+    border-radius: var(--br);
+    cursor: pointer;
+}
+
+.ab{
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+}

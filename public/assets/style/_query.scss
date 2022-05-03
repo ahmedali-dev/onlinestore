@@ -1,0 +1,24 @@
+// mobile
+@media (max-width: 1000px) {
+    .loginSystem{
+        &__left{
+            display: none;
+        }
+    }
+}
+@media (max-width: 501px) {
+
+    .ab{
+        position:unset;
+        margin: 2rem 1rem;
+    }
+
+    .loginSystem{
+        &__right{
+            &__form{
+                width: 100%;
+                padding: 2rem;
+            }
+        }
+    }
+}
